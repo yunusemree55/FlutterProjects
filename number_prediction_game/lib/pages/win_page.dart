@@ -7,10 +7,6 @@ class WinPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    var screen = MediaQuery.of(context);
-    final height = screen.size.height;
-    final width = screen.size.width;
-
     return PopScope(
       canPop: false,
       onPopInvoked: (bool){

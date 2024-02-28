@@ -102,21 +102,6 @@ class _GamePageState extends State<GamePage> {
       ),
     );
   }
-
-   Function? clickButton(){
-
-    if(prediction.toString().isEmpty){
-      return null;
-    }else{
-      return () {
-        return checkNumber();
-
-      };
-    }
-
-
-  }
-
 }
 
 

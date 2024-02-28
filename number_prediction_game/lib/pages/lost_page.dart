@@ -8,7 +8,6 @@ class LostPage extends StatelessWidget {
 
     var screen = MediaQuery.of(context);
     final height = screen.size.height;
-    final width = screen.size.width;
 
     return PopScope(
       canPop: false,
